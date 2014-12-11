@@ -1,0 +1,201 @@
+/*------------------------------------------------------------------
+Project : name
+Project
+Version : 0.0.1
+Last modified : 12-12-2014
+Author : atkia
+email  : me@ihsanatkia.com;
+URL :
+
+ Table of Contents
+    - Typography
+    - Hyperlinks
+    - General
+    - Login Form
+    - Register Form
+    - Editable Form
+    - General Form
+    - General Table
+    - Paginations
+    - Wrapper
+    - Inner
+    - Header
+    - Navigation
+    - Sidebar
+    - Footer
+    - 404 Page
+
+    - Content
+        * page
+        * page  
+        * page 
+        * page
+        * page
+        * page
+       
+
+    - Dashboard Public
+    - Accessories
+
+    - Responsive
+        * [6.1. 768 to 939] // For iPad
+        * [6.2. 480 to 767] // For screen 480px;
+        * [6.3. Up to 479] // For screen 320px
+--------------------------------------------------------------------
+
+
+/*------------------------------------------------------------------
+[. Global Styles]
+------------------------------------------------------------------*/
+
+/* Typography
+------------------------------------------------------------ */
+body{
+    color: #707070;
+    font-size: 16px;
+}
+
+body > img{
+    display: none;
+}
+
+/* Hyperlinks
+------------------------------------------------------------ */
+a, a:visited {
+    color: #e86741;
+}
+a:hover {
+    color: #be3d37;
+    text-decoration: none;
+}
+img{
+    border: none;
+}
+
+h1{font-size: 36px}
+h2{font-size: 30px}
+h3{font-size: 24px}
+h4{font-size: 18px}
+h5{font-size: 14px}
+h6{font-size: 12px}
+
+
+/* Wrapper
+------------------------------------------------------------ */
+#wrapper {
+   
+}
+.container {
+	/*width: 960px;*/
+	margin: 0px auto;
+}
+
+
+
+/*------------------------------------------------------------------
+[. Header Styles]
+------------------------------------------------------------------*/
+.header{
+	padding: 20px;
+}
+
+/*------------------------------------------------------------------
+[. Footer Styles]
+------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[. content]
+------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[. footer style]
+------------------------------------------------------------------*/
+
+
+#footer{
+	background: #35353e;	
+	padding-top: 20px;
+	
+}
+
+#footer p{
+	color: #8c8c92;	
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#copyright{
+	background: #35353e;	
+	padding: 10px;
+}
+.copyright{
+	line-height: 24px;
+	border-top: 1px solid #43434d;
+	padding-top: 10px;
+
+}
+
+.copyright p{
+	margin:0px;
+	line-height: 24px;
+	font-size: 12px;
+}
+
+.copyright ul li{
+	float: left;
+	margin-right: 20px;
+	
+}
+
+.copyright ul li:first-child{
+	list-style: none;
+	padding-right: 8px;
+}
+.copyright ul li:last-child{
+	margin-right: 0px;
+}
+
+.copyright ul{
+	padding-left: 0px;
+	margin-bottom: 0px;
+	float: right;
+}
+
+.copyright ul li a{
+	color: #959ba4;
+	font-size: 14px;	
+}
+
+.copyright ul li a:hover{
+	color: #808285;
+}
+/*------------------------------------------------------------------
+[. Responsive]
+------------------------------------------------------------------*/
+
+/* [6.1. 768 to 939] // For iPad
+-------------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+	
+}
+
+/* [6.2. 480 to 767] // For screen 480px;
+-------------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+
+}
+
+/* [6.3. Up to 479] // For screen 320px
+-------------------------------------------------------------------*/
+
+@media (max-width: 479px) {
+ 
+}
+
+
+@media (max-width: 320px) {
+
+}
